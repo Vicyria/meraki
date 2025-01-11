@@ -1,0 +1,16 @@
+/* Ensure the app container takes up the full viewport */
+.app-container {
+    position: relative;
+    z-index: 2; /* Above the background */
+    min-height: 100vh; /* Full screen */
+    color: white; /* Assuming white text on a dark background */
+  }
+  
+  /* Optional: Style the header to ensure it is always above */
+  header {
+    position: relative;
+    z-index: 3;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  }
+  
