@@ -10,12 +10,13 @@
     justify-content: space-between;
     width: 100%;
     align-items: flex-end;
-    background-color: #8EB15C;
+    background-color: #00150A;
+    text-decoration: none;
     height: 80px;
     z-index: 1000;
 }
 #header__title{
-    color: white;
+    color: #EBEDED;
     text-align: center;
     align-items: center;
     transform: translateX(50%);
@@ -27,10 +28,11 @@
 .navbarContainer {
     display: flex;
     align-items: center;
+    margin-right: 10px;
 }
 .navbar {
     display: flex;
-    color: white;
+    color: EBEDED;
     align-items: center;
     justify-content: flex-end;
 }
@@ -43,5 +45,14 @@
 .navbar__items li{
     margin-left: 10px;
     cursor: pointer;
-    font-weight: bold;
+}
+.navbar__items a{
+    color: #EBEDED;
+    padding: 1px;
+    text-decoration: none;
+}
+.navbar__items a:hover {
+    color: #07D18E;
+    text-decoration: underline;
+    transition: 0.3s ease color;
 }

@@ -1,5 +1,7 @@
 .testimonialsContainer {
-    height: 800px;
+    display: flex;
+    height: 85vh;
+    width: 100vw;
 }
 .testimonials {
     height: 100%;

@@ -1,0 +1,17 @@
+.enrollBtn {
+    background-color: #00321F;
+    color: #EBEDED;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 4px;
+    height:30px;
+    width: 100px;
+    border: 2px outset #00150A;
+    text-decoration: none;
+    cursor: pointer
+}
+.enrollBtn:hover{
+    background-color: #00150A;
+    transform: scale(1.04);
+    transition: transform 0.3s ease;
+}
