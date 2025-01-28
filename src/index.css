@@ -1,0 +1,12 @@
+:root{
+    --primary-color: #D0A237;
+    --secondary-color: #8BDCDB;
+    --background-color:#043153;
+    --button-color: #FFD684;
+    --button-color-bg: #bc9e61;
+    --background-color-secondary: #5E5A11;
+}
+
+body {
+    font-family: 'Delius', cursive;
+  }

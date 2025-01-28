@@ -1,12 +1,12 @@
-/* Ensure the app container takes up the full viewport */
+body{
+  background-image: linear-gradient(#ffffff 1.1rem, #ccc 1.2rem);
+}
 .app-container {
     position: relative;
     z-index: 2; /* Above the background */
     min-height: 100vh; /* Full screen */
     color: white; /* Assuming white text on a dark background */
   }
-  
-  /* Optional: Style the header to ensure it is always above */
   header {
     position: relative;
     z-index: 3;

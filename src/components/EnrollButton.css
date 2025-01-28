@@ -1,17 +1,22 @@
 .enrollBtn {
-    background-color: #00321F;
-    color: #EBEDED;
+    position: relative;
+    background-color: var(--button-color);
+    color: black;
     text-align: center;
     font-size: 16px;
-    border-radius: 4px;
-    height:30px;
-    width: 100px;
-    border: 2px outset #00150A;
+    border-radius: 12px;
+    padding: 10px 20px;
+    border: none;
     text-decoration: none;
-    cursor: pointer
+    cursor: pointer;
+    box-shadow: 0px 6px 0px #bc9e61;   
 }
 .enrollBtn:hover{
-    background-color: #00150A;
-    transform: scale(1.04);
-    transition: transform 0.3s ease;
+    transform: translateY(-4px);
+    box-shadow: 0px 12px 0px #bc9e61;
+    transition: 0.2s;
+}
+.enrollBtn:active{
+    transform: translateY(4px);
+    box-shadow: 0px 3px 0px #bc9e61;
 }

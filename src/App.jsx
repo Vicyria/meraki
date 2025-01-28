@@ -12,7 +12,6 @@ export default function App(){
 
   return(
     <>
-    <Background />
     <Router>
       <div className = "app-container">
         <Header />

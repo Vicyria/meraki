@@ -23,53 +23,27 @@ export default function Courses() {
             description: "B1 course",
             duration: "10 weeks",
         },
+        {
+            id: 4,
+            title: 'B2',
+            description: "C1 course",
+            duration: "10 weeks"
+        }
     ]
     const [currentIndex, setCurrentIndex] = useState(0);
-
-    const nextSlide = () => {
-        setCurrentIndex((currentIndex + 1) % courses.length)
-    }
-
-    const prevSlide = () => {
-        setCurrentIndex((currentIndex - 1 + courses.length) % courses.length)
-    }
     return(
         <>
-        <div className = "courseCarousel">
-            <h1 id = "course__title" >Available Courses</h1>
-            <div className = "course__description">
-                <p>Helloink lorem ipsum <br></br><br></br></p>
-            </div>
-            <div className = "carousel">
-                <button className = "carousel__btn prev" onClick = {prevSlide}>
-                    &lt;
-                </button>
-                <div className = "carousel__content"
-                style = {{transform: `translateX(-${currentIndex * 100}%)`}}>
-                    {courses.map((course, index) => (
-                        <div className = { `carousel__slide 
-                        ${index === currentIndex ? 'active' : ""}`} 
-                        key = {course.id}>
-                            <h2>{course.title}</h2>
-                            <p>{course.description}</p>
-                            <p>{course.duration}</p>
-                            <EnrollButton />
-                        </div>
-                    ))}
-                </div>
-                <button className = "carousel__btn next" onClick = {nextSlide}>
-                    &gt;
-                </button>
-                <div className = "carousel__dots">
-                    {courses.map((_, index) => (
-                        <span 
-                        key = {index}
-                        className = {`dot ${index === currentIndex ? 'active' : '' }`}
-                        onClick={() => setCurrentIndex(index)}>
-                        </span>
-                    ))}
-                </div>
-            </div>
+        <div className = "courses_container">
+            <h3 className = "courses_heading">Courses List</h3>
+            <ul className="course_list">
+            {courses.map((course) => (
+                <li key = {course.id} className="course_card">
+                    <h2>{course.title}</h2>
+                    <p>{course.description}</p>
+                    <p>Duration: {course.description}</p>
+                </li>
+            ))}
+            </ul>
         </div>
         </>
     )

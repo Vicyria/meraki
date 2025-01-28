@@ -8,7 +8,7 @@ function Header() {
                 <div className = "logo">
                     <img rel = "/source" alt = "logo"></img>
                 </div>
-                <h1 id = "header__title">Learn with Meraki</h1>
+                <h1 className = "header__title">Learn with <span style={{color: 'var(--secondary-color)'}}>Meraki</span></h1>
                 <div className = "navbarContainer">
                     <nav className = 'navbar'>
                         <ul className = "navbar__items">
