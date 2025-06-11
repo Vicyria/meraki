@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import Table from "../components/table";
+import Table from "../components/Table";
 import Banner from "../components/Banner";
 import Introduction from "../components/Introduction";
 import Hero from "../components/Hero"
