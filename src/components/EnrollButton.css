@@ -1,22 +1,20 @@
-.enrollBtn {
-    position: relative;
-    background-color: var(--button-color);
-    color: black;
-    text-align: center;
-    font-size: 16px;
+.enroll-btn{
+    height: 40px;
+    width: 120px;
+    background-color: var(--heading-colour);
     border-radius: 12px;
-    padding: 10px 20px;
-    border: none;
-    text-decoration: none;
+    box-shadow: 2px 2px var(--shadow-colour);
+    margin-right: 70px;
+    margin-left: 70px;
     cursor: pointer;
-    box-shadow: 0px 6px 0px #bc9e61;   
 }
-.enrollBtn:hover{
-    transform: translateY(-4px);
-    box-shadow: 0px 12px 0px #bc9e61;
-    transition: 0.2s;
+.enroll-btn:hover{
+    background-color: var(--shadow-colour);
+    box-shadow: 2px 2px var(--shadow-colour-2);
+    transition: background-color 0.3s ease;
 }
-.enrollBtn:active{
-    transform: translateY(4px);
-    box-shadow: 0px 3px 0px #bc9e61;
+.enroll-btn:active{
+    transform: translate(2px, 2px);
+    transition: transform .2s ease;
+    box-shadow: 0px 0px;
 }

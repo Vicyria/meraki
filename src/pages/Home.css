@@ -1,0 +1,41 @@
+.testimonial{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 19vw;
+    margin-bottom: 2em;
+    border-radius: 12px;
+    height: 480px;
+    max-width: 62vw;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 4px 4px rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+.crewline{
+    margin-top: 0.5rem;
+    font-size: 1.8em;
+    text-shadow: 1px 1px var(--shadow-colour);
+    font-weight: bold;
+    font-family: "Delius Swash Caps", cursive;
+}
+.testimonial-title{
+    text-align: center;
+    font-size: 3em;
+    color: var(--heading-colour);
+    text-shadow: 2.5px 2.5px var(--shadow-colour);
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-family: "Delius Swash Caps", cursive;
+}
+.table-heading{
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 2.5px 2.5px var(--shadow-colour);
+    color: var(--heading-colour);
+    font-family: "Delius Swash Caps", cursive;
+
+}

@@ -1,0 +1,19 @@
+.faq-heading{
+    text-align: center;
+    font-size: 2.5em;
+    font-family: "Delius Swash Caps", cursive;
+    font-weight: bolder;
+    color: #FFC25F;
+    text-shadow: 3px 3px #E7972F;
+
+}
+.subheading{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "Delius Swash Caps", cursive;
+    font-weight: bolder;
+    color: #FFC25F;
+    text-shadow: 1.5px 1.5px #E7972F;
+    margin-top: 0.5em;
+
+}

@@ -1,8 +1,26 @@
 .testimonialsContainer {
     display: flex;
-    height: 85vh;
-    width: 100vw;
+    height: 150vh;
+    width: 78vw;
+    overflow: hidden;
+    border-radius: 12px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 4px 4px rgba(255, 255, 255, 0.5);
 }
 .testimonials {
     height: 100%;
+}
+.testimonial-heading{
+    text-align: center;
+    font-size: 5em;
+    margin-top: 0.5em;
+    text-shadow: 4px 4px #E7972F;
+    font-weight: bolder;
+    transition: all 0.3s ease;
+    color: #FFC25F;
+    margin-bottom: 0.3em;
+    font-family: 'Delius Swash Caps', cursive;
 }

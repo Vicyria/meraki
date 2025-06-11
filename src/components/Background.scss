@@ -1,0 +1,12 @@
+/* Background.css */
+.background {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background: linear-gradient(to bottom, #002244, #005588, #0099cc);
+    z-index: -1; /* Push behind the content */
+  }

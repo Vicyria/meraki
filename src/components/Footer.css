@@ -1,0 +1,16 @@
+.footer-container{
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: end;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    text-shadow: 2px 2px var(--shadow-colour);
+    background-image: url("/public/seabed.png");
+    background-size:cover;
+    background-position: 0px -30px;
+    background-repeat: no-repeat;
+}

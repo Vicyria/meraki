@@ -1,6 +1,3 @@
-body{
-  background-image: linear-gradient(#ffffff 1.1rem, #ccc 1.2rem);
-}
 .app-container {
     position: relative;
     z-index: 2; /* Above the background */

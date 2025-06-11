@@ -1,0 +1,88 @@
+.about-title{
+    text-align: center;
+    font-size: 5em;
+    margin-top: 0.5em;
+    text-shadow: 4px 4px var(--shadow-colour);
+    font-weight: bolder;
+    transition: all 0.3s ease;
+    color: var(--heading-colour);
+    font-family: 'Delius Swash Caps', cursive;
+}
+.beyond-title{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0.5em;
+    text-shadow: 2px 2px var(--shadow-colour);
+    font-weight: bolder;
+    transition: all 0.3s ease;
+    color: var(--heading-colour);
+    font-family: 'Delius Swash Caps', cursive;
+}
+.about-hero{
+    margin-left: 4em;
+    margin-top: 1em;
+    margin-right: 4em;
+    font-size: 2em;
+    text-shadow: 1.5px 1.5px var(--shadow-colour);
+    text-align: left;
+    backdrop-filter: blur;
+    -webkit-backdrop-filter: blur(10px);
+}
+.box-title{
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 1.7px 1.7px var(--shadow-colour);
+    font-weight: bolder;
+    color: var(--heading-colour);
+    font-family: 'Delius Swash Caps', cursive;
+}
+.about-photo{
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    height:220px;
+    width: 260px;
+    overflow: hidden;
+}
+.aboutContainer {
+    margin: 12px 0px 12px 0px;
+    border-radius: 12px;
+    padding: 12px;
+    max-width: 85vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 4px 4px rgba(255, 255, 255, 0.5);
+    overflow:hidden;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+.onepiece{
+    margin-top: 1.4em;
+}
+.crochet-image{
+    margin-top: 20px;
+    width: 50vw;
+    height: 30vw;
+}
+.text{
+    font-size: 1.1rem;
+}
+.interestsContainer{
+    display:flex;
+    position: relative;
+    flex-direction: column;
+    margin: 12px 0px 12px 0px;
+    border-radius: 12px;
+    padding: 8px;
+    height: 640px;
+    width: 31vw;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 4px 4px rgba(255, 255, 255, 0.5);
+
+}

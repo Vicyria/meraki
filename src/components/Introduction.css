@@ -1,0 +1,13 @@
+.intro-heading{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0;
+    font-weight: bold;
+    text-shadow: 1.5px 1.5px var(--shadow-colour)
+}
+.about-link{
+    font-size: 1.1em;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px var(--shadow-colour);
+    text-decoration: underline;
+}

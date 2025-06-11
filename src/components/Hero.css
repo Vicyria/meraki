@@ -1,0 +1,65 @@
+.bonjour{
+    font-size: 2em;
+    color: var(--heading-colour);
+    text-shadow: 5px 5px var(--shadow-colour)
+}
+.hero-text{
+    text-align: left;
+    font-size: 3em;
+    margin: 0.5em 3em 0.3em 4em;
+    text-shadow: 3px 2.5px var(--shadow-colour);
+    font-weight: bolder;
+    transition: all 0.3s ease;
+    font-family: 'Delius Swash Caps', cursive;
+}
+.hero-subheading{
+    text-align: left;
+    font-size: 0.8em;
+    margin:3em 2em 0em 4em;
+    text-shadow: 3px 2.5px var(--shadow-colour);
+    font-weight: bolder;
+    transition: all 0.3s ease;
+}
+.plunge-text{
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 3px 2.5px var(--shadow-colour);
+    font-weight: bolder;
+}
+.cta-1{
+    position: relative;
+    color: var(--heading-colour);
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.cta-1::after{
+    content: "";
+    position: absolute;
+    left:0;
+    bottom: 0;
+    width:0;
+    height: 4px;
+    transform: translate(1px);
+    z-index:100;
+    transition: width 0.3s ease-in-out;
+    background-color: var(--shadow-colour);
+}
+.cta-1::before{
+    content: "";
+    position: absolute;
+    left:0;
+    bottom: 0;
+    width:0;
+    height: 4px;
+    z-index: 101;
+    transform: translateY(-2px);
+    transition: width 0.3s ease-in-out;
+    background-color: var(--heading-colour);
+}
+.cta-1:hover::after{
+    width: 100%;
+}
+.cta-1:hover::before{
+    width:100%;
+}
