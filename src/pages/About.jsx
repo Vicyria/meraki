@@ -19,7 +19,7 @@ export default function About() {
                 </div>
                 <div className="flex flex-row">
                     <div>
-                        <p className="text"> <span className = "font-bold">Master's Degree in Teaching French as a Second and Foreign Language | M2 FLES (Français Langue Étrangère et Seconde)</span><span className="italic">(Université Grenoble-Alpes, France)</span></p>
+                        <p className="text"> <strong>Master's Degree in Teaching French as a Second and Foreign Language | M2 FLES (Français Langue Étrangère et Seconde)</strong><span className="italic">(Université Grenoble-Alpes, France)</span></p>
                         <h4 className = "font-bold text-xl">Languages I Speak:</h4>
                         <ul className = "list-disc ml-4 text-l">
                             <li>🇫🇷French (Advanced)</li>
