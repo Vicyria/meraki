@@ -1,4 +1,7 @@
 @import 'tailwindcss';
+@tailwind components;
+@tailwind utilities;
+
 :root{
     --heading-colour: #FFC25F;
     --shadow-colour: #FD9426;
@@ -12,12 +15,8 @@
 body {
     font-family: 'Delius', cursive;
     background: hsla(181, 96%, 56%, 1);
-
-background: linear-gradient(270deg, hsla(181, 96%, 56%, 1) 0%, hsla(181, 100%, 17%, 1) 100%);
-
-background: -moz-linear-gradient(270deg, hsla(181, 96%, 56%, 1) 0%, hsla(181, 100%, 17%, 1) 100%);
-
-background: -webkit-linear-gradient(270deg, hsla(181, 96%, 56%, 1) 0%, hsla(181, 100%, 17%, 1) 100%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#23f7fb", endColorstr="#005758", GradientType=1 );
+    background: linear-gradient(270deg, hsla(181, 96%, 56%, 1) 0%, hsla(181, 100%, 17%, 1) 100%);
+    background: -moz-linear-gradient(270deg, rgb(54, 62, 62) 0%, hsla(181, 100%, 17%, 1) 100%);
+    background: -webkit-linear-gradient(270deg, hsla(181, 96%, 56%, 1) 0%, hsla(181, 100%, 17%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#23f7fb", endColorstr="#005758", GradientType=1 );
 }
