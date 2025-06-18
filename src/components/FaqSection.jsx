@@ -4,7 +4,7 @@ export default function FaqSection(){
     return(
         <>
         <h1 className="faq-heading">Frequently Asked Questions</h1>
-        <div className = "max-w-4xl mx-auto mb-12">
+        <div className = "m-2 max-w-4xl md:mx-auto">
             <details className = "mt-4 group border-white/50  p-2 rounded-xl shadow-[4px_4px_rgba(255,255,255,0.5)] backdrop-blur-sm bg-white/30">
                 <summary className = "cursor-pointer text-xl flex justify-between transition duration-300">How many levels are there for any European language?
                     <span className = "rotate-180 transition-transform group-open:rotate-0">^</span>

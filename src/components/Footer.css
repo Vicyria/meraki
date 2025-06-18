@@ -1,15 +1,25 @@
 .footer-container{
-    height: 40vh;
+    height: 30vh;
     width: 100vw;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
     align-items: end;
     color: white;
     font-weight: bolder;
-    font-size: larger;
-    text-shadow: 2px 2px var(--shadow-colour);
+    font-size: clamp(0.7rem, 1.2vw, 2.5rem);
+    text-shadow: 1px 1px var(--shadow-colour);
     background-image: url("/seabed.png");
+    background-position: bottom;
     background-size:cover;
     background-repeat: no-repeat;
+}
+.icons{
+    height: clamp(1em, 1.2vw, 3em);
+    width: clamp(1em, 1.2vw, 3em);
+}
+@media(max-width: 768px){
+    .footer-container{
+        background-size: contain;
+        height: 20vh;
+    }
 }

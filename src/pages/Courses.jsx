@@ -57,9 +57,9 @@ export default function Courses() {
                     onClick={() => handleClick(course.id)}
                 >
                     {activeId !== course.id && (
-                        <div className="relative w-full flex flex-col ">
+                        <div className="relative w-full flex flex-col scale-100">
                             <div>
-                                <img src={course.image} className="w-84 h-63 object-cover"></img>
+                                <img src={course.image} className="w-70 h-62 object-cover"></img>
                             </div>
                             <div className="absolute bottom-0 left-0 w-full text-center">
                                 <div className = "course-title-small">{course.title}</div>

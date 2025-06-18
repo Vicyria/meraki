@@ -5,9 +5,9 @@ export default function Footer(){
     const currentYear = new Date().getFullYear();
     return(
         <footer className="footer-container">
-            <p className=" mb-2 flex-1 text-center">&copy; {currentYear} Learn with Meraki. All rights reserved</p>
-            <div className="absolute flex flex-row items-center flex-2 right-2 whitespace-nowrap mr-20 mb-2">
-                <p className="mr-2">Socials:</p>
+            <p className=" text-center col-start-2 mb-2">&copy; {currentYear} Learn with Meraki. All rights reserved</p>
+            <div className=" flex justify-end items-center mb-2 gap-2 mr-2 md:mr-6 lg:mr-10 whitespace-nowrap">
+                <p>Socials:</p>
                 <a
                 href="https://www.linkedin.com/in/your-profile"
                 target="_blank"
@@ -17,7 +17,7 @@ export default function Footer(){
                     <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="white"
-                    className="w-5 h-5"
+                    className="icons"
                     viewBox="0 0 24 24"
                     >
                     <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761
