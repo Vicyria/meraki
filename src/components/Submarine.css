@@ -15,10 +15,13 @@
     z-index: -1;  
     pointer-events: none;
     display: flex;
-    margin-top: 60vh;
-    margin-left: 5vw;
+    margin-top: 10vh;
+    margin-left: 2vw;
     align-items: left;
     justify-content: left;
+}
+.scaler{
+  transform: scale(0.5);
 }
 .main-body{
   background-color: #FECE30;
@@ -442,6 +445,34 @@
     opacity: 0;
   }
 }
+@media(min-width:768px){
+  .scaler{
+    transform: scale(0.7);
+  }
+  .submarine-container{
+    margin-top: 20vh;
+    margin-left: 3vw;
+  }
+}
 
+@media(min-width:1025px){
+  .scaler{
+    transform: scale(0.8);
+  }
+  .submarine-container{
+    margin-top: 30vh;
+    margin-left: 4vw;
+  }
+}
+
+@media(min-width:1441px){
+  .scaler{
+    transform: scale(0.9);
+  }
+  .submarine-container{
+    margin-top: 60vh;
+    margin-left: 5vw;
+  }
+}
 
 

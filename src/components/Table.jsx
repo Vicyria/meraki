@@ -3,7 +3,7 @@ import React from "react";
 export default function Table() {
     return (
         <>
-        <div className="max-w-4xl mx-auto mb-12">
+        <div className="max-w-4xl m-4 md:mx-auto mb-12">
             <table className = "mt-8 mb-8 border-spacing-2 bg-white/30 p-2 rounded-xl border-separate border shadow-[4px_4px_rgba(255,255,255,0.5)] border-white/50 backdrop-blur-sm table-fixed">
                 <thead>
                     <tr>

@@ -5,7 +5,8 @@ export default function Submarine(){
     return(
         <>
         <div className="submarine-container">
-            <div className="main-body">
+            <div className="scaler">
+                <div className="main-body">
             <div className="fan-area">
                 <div className="fan">
                     <div className="fan-blade-1">
@@ -84,7 +85,8 @@ export default function Submarine(){
             </div>
             <div className="bubble-4">
             </div>
-        </div>
+            </div>
+            </div>
         </div>
         </>
     )

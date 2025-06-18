@@ -20,13 +20,16 @@
 .navbar-scrolled {
     height: 45px;
 }
-
-.navbarContainer {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
+.title{
+    visibility: hidden;
+}
+.navbarContainer{
+    visibility: visible;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .navbarContainer li {
@@ -54,4 +57,107 @@
 .navbar-scrolled .navbarContainer li:hover{
     text-shadow: 2.5px 2.5px var(--shadow-colour-2);
     transform: translate(-2px -1px) scale(1.01);
+}
+
+@media (max-width: 768px){
+    .navbarContainer {
+        visibility: hidden;
+        display: none;
+    }
+    .navbarContainer li{
+        display: none;
+    }
+    .title{
+        visibility: visible;
+        font-size: 2em;
+        font-weight: bold;
+        color: var(--heading-colour);
+        text-shadow: 2px 2px var(--shadow-colour-2);
+        text-align: center;
+    }
+    .navbar{
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
+        align-items: center;
+        height: 50px;
+    }
+    .hamburger-btn{
+        visibility: visible;
+        font-size: 32px;
+        font-weight: bolder;
+        color: black;
+    }
+    .navbar-scrolled{
+        height: 30px
+    }
+    .navbar-scrolled .title{
+        font-size: 1.3em;
+        transition: all 0.1s ease;
+    }
+    .cancel-btn{
+        cursor: pointer;
+        margin-top: 3vh;
+        padding: 20px;
+    }
+    .hamburger{
+        visibility: visible;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        position:fixed;
+        height: 100vh;
+        width: 100vw;
+        background-color: var(--heading-colour);
+        z-index: 9999;
+    }
+    .hamburger-menu{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        overflow: visible;
+        visibility: visible;
+        color: var(--heading-colour);
+        margin-bottom: 30vh;
+    }
+    .hamburger-menu li{
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+    .hamburger-menu a{
+        display: block;
+        width: 100%;
+    }
+    .nav-link-m-1{
+        font-size: 3em;
+        display: block;
+        width: 100%;
+        background-color: #cc7f02;
+    }
+    .nav-link-m-2{
+        font-size: 3em;
+        background-color: #a76100;
+        display: block;
+        width: 100%;
+    }
+    .nav-link-m-3{
+        font-size: 3em;
+        background-color: #844400;
+        display: block;
+        width: 100%;
+    }
+    .nav-link-m-4{
+        font-size: 3em;
+        background-color: #642800;
+        display: block;
+        width: 100%;
+    }
+    .nav-link-m-5{
+        font-size: 3em;
+        background-color: #490b00;
+        display: block;
+        width: 100%;
+    }
 }

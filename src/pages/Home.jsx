@@ -17,7 +17,7 @@ export default function Home() {
         <Choose />
         <h3 className="table-heading">Difference between DELF/DALF and TEF</h3>
         <Table />
-        <h3 className="testimonial-title">Join <u>Hundreds</u> of happy learners</h3>
+        <h3 className="testimonial-title">Join <u>100+</u> happy learners</h3>
         <div className="testimonial">
             <h3 className="crewline">And immortalize your name on the wall of decorated crewmates</h3>
             <iframe  id='testimonialto-what-my-students-say-tag-all-light-animated' src="https://embed-v2.testimonial.to/w/what-my-students-say?animated=on&horizontal=on&theme=light&shadowColor=black&speed=0.5&rows=1&tag=all&cc=off" 
