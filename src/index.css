@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root{
-    --heading-colour: #FFC25F;
-    --shadow-colour: #FD9426;
-    --shadow-colour-2: #8d5205;
+    --heading-colour: #ffc362;
+    --shadow-colour: #834d02;
+    --text-colour: #b7f1f2;
     --secondary-color: #8BDCDB;
     --background-color:#043153;
     --button-color: #FFD684;
@@ -14,9 +14,5 @@
 }
 body {
     font-family: 'Delius', cursive;
-    background: hsla(181, 96%, 56%, 1);
-    background: linear-gradient(270deg, hsla(181, 96%, 56%, 1) 0%, hsla(181, 100%, 17%, 1) 100%);
-    background: -moz-linear-gradient(270deg, rgb(54, 62, 62) 0%, hsla(181, 100%, 17%, 1) 100%);
-    background: -webkit-linear-gradient(270deg, hsla(181, 96%, 56%, 1) 0%, hsla(181, 100%, 17%, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#23f7fb", endColorstr="#005758", GradientType=1 );
+     background-image: linear-gradient(to bottom, #00b7bb, #00aeb2, #00a5a8, #009c9f, #009396, #008a8d, #008083, #00777a, #006c6e, #006163, #005658, #004b4d);
 }

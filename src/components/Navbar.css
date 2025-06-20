@@ -1,7 +1,12 @@
 .navbar {
-    background: linear-gradient(0deg,#ffffff 25%, transparent 26%, transparent 49%, #ffffff80 50%, #ffffff80 75%, transparent 76% );
-    background-size: 4em 4em;
-    background-color: #23F7FB;
+    background: linear-gradient(
+    to bottom,
+    #af6c02 0%, #af6c02 20%,
+    #a76100 20%, #a76100 40%,
+    #844400 40%, #844400 60%,
+    #642800 60%, #642800 80%,
+    #490b00 80%, #490b00 100%
+    );
     opacity: 1;
     position: sticky;
     top: 0;
@@ -31,7 +36,9 @@
     justify-content: center;
     width: 100%;
 }
-
+.hamburger-btn{
+    visibility: hidden;
+}
 .navbarContainer li {
     padding: 10px;
     color: var(--heading-colour);
@@ -85,7 +92,7 @@
         visibility: visible;
         font-size: 32px;
         font-weight: bolder;
-        color: black;
+        color: var(--heading-colour);
     }
     .navbar-scrolled{
         height: 30px
@@ -96,7 +103,7 @@
     }
     .cancel-btn{
         cursor: pointer;
-        margin-top: 3vh;
+        margin-top: 3   vh;
         padding: 20px;
     }
     .hamburger{
@@ -118,13 +125,14 @@
         width: 100%;
         overflow: visible;
         visibility: visible;
-        color: var(--heading-colour);
+        color: rgb(232, 208, 141);
         margin-bottom: 30vh;
     }
     .hamburger-menu li{
         text-align: center;
         display: block;
         width: 100%;
+        
     }
     .hamburger-menu a{
         display: block;
@@ -134,7 +142,7 @@
         font-size: 3em;
         display: block;
         width: 100%;
-        background-color: #cc7f02;
+        background-color: #af6c02;
     }
     .nav-link-m-2{
         font-size: 3em;

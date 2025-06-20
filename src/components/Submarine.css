@@ -447,7 +447,7 @@
 }
 @media(min-width:768px){
   .scaler{
-    transform: scale(0.7);
+    transform: scale(0.6);
   }
   .submarine-container{
     margin-top: 20vh;
@@ -457,7 +457,7 @@
 
 @media(min-width:1025px){
   .scaler{
-    transform: scale(0.8);
+    transform: scale(0.7);
   }
   .submarine-container{
     margin-top: 30vh;
@@ -467,7 +467,7 @@
 
 @media(min-width:1441px){
   .scaler{
-    transform: scale(0.9);
+    transform: scale(0.8);
   }
   .submarine-container{
     margin-top: 60vh;

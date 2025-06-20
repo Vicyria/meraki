@@ -15,12 +15,17 @@
 }
 .testimonial-heading{
     text-align: center;
-    font-size: 5em;
+    font-size: clamp(3em, 5vw, 5em);
     margin-top: 0.5em;
-    text-shadow: 4px 4px #E7972F;
+    text-shadow: 4px 4px var(--shadow-colour);
     font-weight: bolder;
     transition: all 0.3s ease;
-    color: #FFC25F;
+    color: var(--heading-colour);
     margin-bottom: 0.3em;
     font-family: 'Delius Swash Caps', cursive;
+}
+@media (max-width: 768px){
+    .testimonial-heading{
+        text-shadow: 3px 3px var(--shadow-colour);
+    }
 }

@@ -16,10 +16,9 @@
 .crewline{
     text-align: center;
     margin-top: 0.5rem;
-    font-size: clamp(0.5em, 3vw, 2em);
-    text-shadow: 1px 1px var(--shadow-colour);
+    font-size: clamp(0.7em, 3.5vw, 2em);
     font-weight: bold;
-    font-family: "Delius Swash Caps", cursive;
+    color: var(--text-colour);
 }
 .testimonial-title{
     text-align: center;
